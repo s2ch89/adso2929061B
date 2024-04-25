@@ -6,6 +6,6 @@
 
 ---
 
-![roronoa zoro](https://tinyurl.com/yc2yktzk)
+![roronoa zoro](https://tinyurl.com/2dhjmkem)
 
 [ADSO files DRIVE](https://tinyurl.com/wnkk334u)
