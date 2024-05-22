@@ -73,8 +73,11 @@ body {
     display: flex;
     font-family: var(--font-bd);
     justify-content: center;
+    flex-wrap: wrap;
+    align-items: center;
     min-height: 100vh;
     nav {
+        
         position: fixed;
         top: 10px;
         left: 10px;
@@ -181,8 +184,9 @@ body {
             flex-direction: column;
             align-items: center;
             margin-top: 2rem;
+            margin-block: 2rem;
             justify-content: center;
-            gap: 0.6rem;
+            gap: 1rem;
             a:is(:link, :visited) {
                 border-radius: 50px;
                 background: linear-gradient(to right, #fffc, #fff3);
