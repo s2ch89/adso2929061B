@@ -260,3 +260,27 @@ body.html {
         }
     }
 }
+
+/* - - - - - - - - - - - - - - */
+/*css*/
+/* - - - - - - - - - - - - - - */
+body.css {
+    background-color: #063155;
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 1000'%3E%3Cg %3E%3Ccircle fill='%23063155' cx='50' cy='0' r='50'/%3E%3Cg fill='%2304355d' %3E%3Ccircle cx='0' cy='50' r='50'/%3E%3Ccircle cx='100' cy='50' r='50'/%3E%3C/g%3E%3Ccircle fill='%23023965' cx='50' cy='100' r='50'/%3E%3Cg fill='%23003d6d' %3E%3Ccircle cx='0' cy='150' r='50'/%3E%3Ccircle cx='100' cy='150' r='50'/%3E%3C/g%3E%3Ccircle fill='%23004175' cx='50' cy='200' r='50'/%3E%3Cg fill='%2300457d' %3E%3Ccircle cx='0' cy='250' r='50'/%3E%3Ccircle cx='100' cy='250' r='50'/%3E%3C/g%3E%3Ccircle fill='%23004a85' cx='50' cy='300' r='50'/%3E%3Cg fill='%23004e8d' %3E%3Ccircle cx='0' cy='350' r='50'/%3E%3Ccircle cx='100' cy='350' r='50'/%3E%3C/g%3E%3Ccircle fill='%23005296' cx='50' cy='400' r='50'/%3E%3Cg fill='%2300569e' %3E%3Ccircle cx='0' cy='450' r='50'/%3E%3Ccircle cx='100' cy='450' r='50'/%3E%3C/g%3E%3Ccircle fill='%23005aa7' cx='50' cy='500' r='50'/%3E%3Cg fill='%23005eaf' %3E%3Ccircle cx='0' cy='550' r='50'/%3E%3Ccircle cx='100' cy='550' r='50'/%3E%3C/g%3E%3Ccircle fill='%230063b8' cx='50' cy='600' r='50'/%3E%3Cg fill='%230067c1' %3E%3Ccircle cx='0' cy='650' r='50'/%3E%3Ccircle cx='100' cy='650' r='50'/%3E%3C/g%3E%3Ccircle fill='%23006bca' cx='50' cy='700' r='50'/%3E%3Cg fill='%23006fd2' %3E%3Ccircle cx='0' cy='750' r='50'/%3E%3Ccircle cx='100' cy='750' r='50'/%3E%3C/g%3E%3Ccircle fill='%230873db' cx='50' cy='800' r='50'/%3E%3Cg fill='%231078e4' %3E%3Ccircle cx='0' cy='850' r='50'/%3E%3Ccircle cx='100' cy='850' r='50'/%3E%3C/g%3E%3Ccircle fill='%23187ced' cx='50' cy='900' r='50'/%3E%3Cg fill='%231f80f6' %3E%3Ccircle cx='0' cy='950' r='50'/%3E%3Ccircle cx='100' cy='950' r='50'/%3E%3C/g%3E%3Ccircle fill='%232684FF' cx='50' cy='1000' r='50'/%3E%3C/g%3E%3C/svg%3E");
+    background-attachment: fixed;
+    background-size: contain;
+    main {
+        header {
+            img {
+                border-color: var(--color-1);
+            }
+        }
+        menu {
+            a {
+                span {
+                    background-color: #3c58f8;
+                }
+            }
+        }
+    }
+}
