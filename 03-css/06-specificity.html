@@ -3,19 +3,22 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>05- Advance Selectors</title>
+    <title>06- Specificity</title>
     <link rel="stylesheet" href="../css/style.css">
     <style>
-        ul {
+        button.bg-blue {
+            background-color: royalblue;
+            cursor: pointer;
+            border-radius: 10px;
+            border: 4px solid #fff9;
             color: #fff9;
-        }
-        section > p {
-            text-align: center;
-        }
-        section[class] > p + p {
-            background: linear-gradient(to left, white, navy);
-            color: white;
+            font-size: 1.6rem;
             padding: 1rem;
+            display: flex;
+            margin: 2rem auto;
+        }
+        .bg-blue {
+            background-color: red;
         }
     </style>
 </head>
@@ -27,16 +30,13 @@
     </nav>
     <main>
         <header>
-            <h1>05- Advance Selectors</h1>
-            <ul>
-                <li>Children (>)</li>
-                <li>Adjacent/Sibling (+)</li>
-                <li>Attribute [class]</li>
-            </ul>
+            <h1>06- Specificity</h1>
+            <p>
+                Is score/rank that determines which style declaration is ultimately applied to an element.
+            </p>
         </header>
-        <section class="example">
-            <p>CPIC</p>
-            <p>Regional Caldas</p>
+        <section>
+            <button class="bg-blue">Click Me</button>
         </section>
     </main>
 </body>

@@ -3,19 +3,18 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>05- Advance Selectors</title>
+    <title>07- Inheritance</title>
     <link rel="stylesheet" href="../css/style.css">
     <style>
         ul {
-            color: #fff9;
+            color: indigo;
+            padding-left: 1rem;
         }
-        section > p {
-            text-align: center;
+        ol {
+            padding-left: 2rem;
         }
-        section[class] > p + p {
-            background: linear-gradient(to left, white, navy);
-            color: white;
-            padding: 1rem;
+        ul li ol li:last-child {
+            color: crimson;
         }
     </style>
 </head>
@@ -27,16 +26,26 @@
     </nav>
     <main>
         <header>
-            <h1>05- Advance Selectors</h1>
-            <ul>
-                <li>Children (>)</li>
-                <li>Adjacent/Sibling (+)</li>
-                <li>Attribute [class]</li>
-            </ul>
+            <h1>07- Inheritance</h1>
+            <p>
+                Property is inherited from the father to all his descendants.
+            </p>
         </header>
-        <section class="example">
-            <p>CPIC</p>
-            <p>Regional Caldas</p>
+        <section>
+            <ul>
+                <li>Metroid Dread</li>
+                <li>Ori and Blind Forest</li>
+                <li>Hollow Knight</li>
+                <li>Prince of Persia The Lost Crown</li>
+                <li>
+                    Zelda Tears of the Kingdom
+                    <ol>
+                        <li>Zelda</li>
+                        <li>Link</li>
+                        <li>Ganondorf</li>
+                    </ol>
+                </li>
+            </ul>
         </section>
     </main>
 </body>

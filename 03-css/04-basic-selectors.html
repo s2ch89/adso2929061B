@@ -5,9 +5,17 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>04- Basic Selectors</title>
     <link rel="stylesheet" href="../css/style.css">
-    <style>{
-
-    }
+    <style>
+        ul {
+            color: #fff9;
+        }
+        section#section01 p.rotate {
+            padding: 1rem;
+            color: darkblue;
+            text-align: center;
+            font-size: 4rem;
+            transform: rotate(-45deg);
+        }
     </style>
 </head>
 <body class="css">
@@ -20,16 +28,16 @@
         <header>
             <h1>04- Basic Selectors</h1>
             <ul>
-                <li>universal (*)</li>
-                <li>type / tag (p)</li>
+                <li>Universal (*)</li>
+                <li>Type / Tag (p)</li>
                 <li>Descending (div p)</li>
                 <li>Class (.important)</li>
                 <li>ID (#cod389)</li>
                 <li>Merge (div#user3 p.title)</li>
             </ul>
         </header>
-        <section>
-        <p> </p>
+        <section id="section01">
+            <p class="rotate">SENA</p>
         </section>
     </main>
 </body>
