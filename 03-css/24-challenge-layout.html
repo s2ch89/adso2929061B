@@ -15,6 +15,12 @@
             font-size: 20px;
             font-weight: 2PX;
             font-style: normal;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+            min-height: 100vh;
+            margin: 0;
 
         }
         
@@ -48,6 +54,11 @@
             text-decoration: none;
             
         }
+
+        menu a:hover {
+    background-color: rgba(0, 0, 0, 0.1);
+    transition: background-color 0.3s ease;
+}
         section {
             align-items: center;
             display: flex;
@@ -102,6 +113,25 @@
             height: 180PX;
             width: 200px;
             position: absolute;
+            justify-content: center;
+        }
+
+        div.logo3 {
+            background: url(images/spriteweb.png) no-repeat;
+            background-position: -289px -494px;
+            border: 2PX ;
+            height: 100PX;
+            margin: 0 auto;
+            width: 100px;
+        }
+
+        div.logo4 {
+            background: url(images/spriteweb.png) no-repeat;
+            background-position: -86px -214px;
+            border: 2PX ;
+            height: 161px;
+            margin: 0 auto;
+            width: 100px;
         }
         section a div p {
         
@@ -147,7 +177,7 @@
             display: flex;
             justify-content: center;
             align-items: center;
-            width: 200px;
+            width: 800px !important;
             background-color: #fff9;
             height: 160px;
             gap: 2rem;
@@ -195,13 +225,28 @@
            
     </main>
     <p></p>
-    <aside>
-        <a href=""><div CLASS="logo3">logo</div><div class=""><p>Sprite 01</p></div><div>logo4</div></a>
-            <a href=""><div CLASS="logo3">logo</div><div class=""><p>Sprite 02</p></div><div>logo4</div></a>
-            <a href=""><div CLASS="logo3">logo</div><div class=""><p>Sprite 03</p></div><div>logo4</div></a>
-           
-            
-            
+     <aside>
+        <a href="">
+            <div class="logo3"></div>
+            <div class="">
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+            </div>
+            <div class="logo4"></div>
+        </a>
+        <a href="">
+            <div class="logo3"></div>
+            <div class="">
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+            </div>
+            <div class="logo4"></div>
+        </a>
+        <a href="">
+            <div class="logo3"></div>
+            <div class="">
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+            </div>
+            <div class="logo4"></div>
+        </a>
     </aside>
     
 </body>
